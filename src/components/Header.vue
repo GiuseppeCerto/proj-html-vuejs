@@ -24,6 +24,7 @@
                         </div>
                         <div class="col-1">
                             <font-awesome-icon icon="fa-brands fa-linkedin-in" />
+                            aa
                         </div>
                     </div>
                 </div>
