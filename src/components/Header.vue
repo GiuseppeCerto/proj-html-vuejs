@@ -24,7 +24,6 @@
                         </div>
                         <div class="col-1">
                             <font-awesome-icon icon="fa-brands fa-linkedin-in" />
-                            aa
                         </div>
                     </div>
                 </div>
@@ -32,7 +31,9 @@
         </div>
         <div class="header_section">
             <div class="header_container">
-                <img src="../assets/images/logo.svg" alt="">
+                <div class="row">
+                    <img class="header_logo" src="../assets/images/logo.svg" alt="">
+                </div>
             </div>
         </div>
     </header>
@@ -67,6 +68,10 @@
 
 .header_container{
     width: 1100px;
+}
+
+.header_logo{
+    width: 110px;
 }
 
 </style>
