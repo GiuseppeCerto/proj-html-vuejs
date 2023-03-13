@@ -31,7 +31,7 @@
         </div>
         <div class="header_section">
             <div class="header_container">
-
+                <img src="../assets/images/logo.svg" alt="">
             </div>
         </div>
     </header>
