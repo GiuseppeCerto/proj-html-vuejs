@@ -12,7 +12,9 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { faFacebookF } from '@fortawesome/free-brands-svg-icons'
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faUser } from '@fortawesome/free-regular-svg-icons'
 
-library.add(faClock,faPhone,faEnvelope,faFacebookF,faTwitter,faLinkedinIn)
+
+library.add(faClock,faPhone,faEnvelope,faFacebookF,faTwitter,faLinkedinIn,faUser)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')

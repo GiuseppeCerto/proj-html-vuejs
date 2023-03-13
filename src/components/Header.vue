@@ -31,8 +31,30 @@
         </div>
         <div class="header_section">
             <div class="header_container">
-                <div class="row">
-                    <img class="header_logo" src="../assets/images/logo.svg" alt="">
+                <div class="row nav_section">
+                    <div class="col-6">
+                        <img class="header_logo" src="../assets/images/logo.svg" alt="">
+                    </div>
+                    <div class="col-6">
+                        <ul class="nav">
+                            <li>HOME</li>
+                            <li>ABOUT</li>
+                            <li>SERVICES</li>
+                            <li>TEAM</li>
+                            <li>BLOG</li>
+                            <li><font-awesome-icon icon="fa-regular fa-user" /></li>
+                            <li class="header_button">GET IN TOUCH</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <div class="row">
+                        <div class="col-12 title_section">
+                            <h1>
+                                Financial Risk
+                            </h1>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -68,10 +90,42 @@
 
 .header_container{
     width: 1100px;
+    margin: 0 auto;
+    color: white;
+}
+
+.nav_section{
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 230px;
 }
 
 .header_logo{
-    width: 110px;
+    width: 130px;
+}
+
+.nav{
+    display: flex;
+    font-size: 13px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_button{
+    padding: 8px 15px;
+    background-color: rgba(5,130,145,255);
+    border-radius: 3px;
+}
+
+.title_section{
+    display: flex;
+    justify-content: center;
+}
+
+.title_section h1{
+    font-size: 60px;
+    font-weight: 900;
 }
 
 </style>
