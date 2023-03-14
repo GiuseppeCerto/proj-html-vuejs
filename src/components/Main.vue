@@ -1,13 +1,22 @@
 <template>
+    <Introduction />
+    <Results />
+</template>
+  
+<script>
+    import Introduction from './Introduction.vue';
+    import Results from './Results.vue';
 
-  </template>
+    export default {
+        components: {
+            Introduction,
+            Results,
+        }
+    }
+</script>
   
-  <script>
+<style lang="scss" >
 
-  </script>
   
-  <style lang="scss" >
-    @use './style/general.scss';
-  
-  </style>
+</style>
   
