@@ -104,13 +104,13 @@
     .number_results{
         color: rgba(0,166,166,255);
         font-size: 27px;
-        font-weight: 600;
+        font-weight: 700;
         margin-bottom: 7px;
     }
 
     .text_results{
         font-size: 22px;
-        font-weight: 600;
+        font-weight: 700;
     }
 
   
