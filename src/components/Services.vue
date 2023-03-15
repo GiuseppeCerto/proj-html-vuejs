@@ -143,6 +143,11 @@
         height: fit-content;
         margin-bottom: 15px;
         margin-right: 12px;
+        cursor: pointer;
+    }
+
+    .services_button_trans:hover{
+        background-color: rgb(255, 98, 98);
     }
 
     .services_grid{
@@ -157,6 +162,15 @@
         background-color: rgba(25,25,31,255);
         border-radius: 5px;
         margin-top: 40px;
+        cursor: pointer;
+    }
+
+    .services_grid_item:hover{
+        background-color: rgba(25,25,38,255);
+    }
+
+    .services_grid_item:hover .arrow_grid{
+        color: rgb(239, 239, 239);
     }
 
     .icon_grid{

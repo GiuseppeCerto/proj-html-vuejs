@@ -82,6 +82,12 @@
         color: white;
         font-size: 90px;
         filter: opacity(0.8);
+        cursor: pointer;
+    }
+
+    .play_icon:hover{
+        font-size: 120px;
+        color: rgb(55, 200, 248);
     }
   
 </style>

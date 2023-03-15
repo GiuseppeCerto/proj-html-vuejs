@@ -150,11 +150,13 @@
     .team_image img{
         border-radius: 3px;
         width: 130px;
+        cursor: pointer;
     }
 
     .team_name{
         font-size: 20px;
         font-weight: 600;
+        cursor: pointer;
     }
 
     .team_position{
@@ -176,6 +178,11 @@
         border-radius: 50%;
         padding: 8px 8px;
         margin-top: 14px;
+        cursor: pointer;
+    }
+
+    .team_icon > *:hover{
+        background-color: rgb(55, 200, 248);
     }
 
     .team_sec_parag{

@@ -140,6 +140,7 @@
 
 .header_logo{
     width: 130px;
+    cursor: pointer;
 }
 
 .nav{
@@ -198,6 +199,7 @@
 .button_items{
     display: flex;
     gap: 25px;
+    cursor: pointer;
 }
 
 .header_button_trans{
@@ -205,6 +207,10 @@
     border: 2px solid rgba(37,87,93,255);
     border-radius: 3px;
     color: white;
+}
+
+.header_button_trans:hover{
+    background-color: rgb(55, 200, 248);
 }
 
 </style>

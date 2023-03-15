@@ -107,6 +107,11 @@
         border-radius: 3px;
         color: white;
         width: fit-content;
+        cursor: pointer;
+    }
+
+    .news_button:hover{
+        background-color: rgb(55, 200, 248);
     }
 
     .news_card_sec{
@@ -122,6 +127,11 @@
     .news_card img{
         filter: brightness(0.5);
         border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .news_card img:hover{
+        filter: brightness(0.8);
     }
 
     .card_parag{

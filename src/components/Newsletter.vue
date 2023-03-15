@@ -99,6 +99,11 @@
         border-radius: 3px;
         color: white;
         width: fit-content;
+        cursor: pointer;
+    }
+
+    .newsletter_button:hover{
+        background-color: rgb(55, 200, 248);
     }
 
   

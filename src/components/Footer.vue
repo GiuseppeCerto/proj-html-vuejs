@@ -20,29 +20,23 @@
                 <div class="col-9">
                     <div class="row justify-content-between">
                         <ul class="footer_link_list">
-                            <li>
-                                <h5>Support</h5>
-                            </li>
+                            <h5>Support</h5>
                             <li v-for="(links, index) in footerLinks1" :key="index">
-                                <font-awesome-icon icon="fa-solid fa-chevron-right" />
+                                <font-awesome-icon class="footer_link_icon" icon="fa-solid fa-chevron-right" />
                                 {{ links }}
                             </li>
                         </ul>
                         <ul class="footer_link_list">
-                            <li>
-                                <h5>Support</h5>
-                            </li>
+                            <h5>Support</h5>
                             <li v-for="(links, index) in footerLinks2" :key="index">
-                                <font-awesome-icon icon="fa-solid fa-chevron-right" />
+                                <font-awesome-icon class="footer_link_icon" icon="fa-solid fa-chevron-right" />
                                 {{ links }}
                             </li>
                         </ul>
                         <ul class="footer_link_list">
-                            <li>
-                                <h5>Support</h5>
-                            </li>
+                            <h5>Support</h5>
                             <li v-for="(links, index) in footerLinks3" :key="index">
-                                <font-awesome-icon icon="fa-solid fa-chevron-right" />
+                                <font-awesome-icon class="footer_link_icon" icon="fa-solid fa-chevron-right" />
                                 {{ links }}
                             </li>
                         </ul>
@@ -133,6 +127,11 @@ export default {
         display: flex;
         gap: 8px;
         align-items: center;
+        cursor: pointer;
+    }
+
+    .footer_contact_item:hover{
+        color: white;
     }
 
     .footer_contact_button{
@@ -143,6 +142,12 @@ export default {
         width: fit-content;
         margin-top: 22px;
         font-size: 12px;
+        cursor: pointer;
+    }
+
+    .footer_contact_button:hover{
+        background-color: rgb(55, 200, 248);
+        color: white;
     }
 
     .footer_link_list{
@@ -158,10 +163,23 @@ export default {
         font-weight: 600;
     }
 
+    .footer_link_list{
+        margin-right: 6px;
+    }
+
+    .footer_link_icon{
+        margin-right: 6px;
+    }
+
     .footer_link_list li{
         margin-bottom: 10px;
         color: rgb(156, 162, 167);
         font-size: 15px;
+        cursor: pointer;
+    }
+
+    .footer_link_list li:hover{
+        color: white;
     }
 
     .end_footer_bg{

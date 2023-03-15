@@ -99,6 +99,11 @@
         justify-content: space-between;
         text-align: center;
         margin-bottom: 120px;
+        cursor: pointer;
+    }
+
+    .text_results:hover{
+        color: rgb(55, 200, 248);
     }
 
     .number_results{
@@ -113,6 +118,6 @@
         font-weight: 700;
     }
 
-  
+
 </style>
   

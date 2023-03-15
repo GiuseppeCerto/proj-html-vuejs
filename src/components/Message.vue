@@ -179,6 +179,11 @@
         color: white;
         width: fit-content;
         margin-left: 12px;
+        cursor: pointer;
+    }
+
+    .message_button:hover{
+        background-color: #636767;
     }
 
     .message_contact_sec{
@@ -187,8 +192,16 @@
         gap: 23px;
     }
 
+    .message_contact_sec div{
+        cursor: pointer;
+    }
+
     .message_contact_title{
         font-weight: 600;
+    }
+
+    .message_contact_sec div:hover .message_icon{
+        background-color: rgb(55, 200, 248);
     }
 
     .message_contact_parag{
@@ -204,6 +217,10 @@
         color: rgba(156,162,167,255);
     }
 
+    .contact_item:hover{
+        color: gray;
+    }
+
     .message_icon{
         color: rgba(5,130,131,255);
         background-color: rgba(218,236,237,255);
@@ -211,6 +228,7 @@
         height: 13px;
         border-radius: 50%;
         padding: 8px 8px;
+        cursor: pointer;
     }
 
     .contact_button{
@@ -220,6 +238,11 @@
         border-radius: 3px;
         width: fit-content;
         margin-top: 10px;
+    }
+
+    .contact_button:hover{
+        background-color: rgb(55, 200, 248);
+        color: white;
     }
   
 </style>
