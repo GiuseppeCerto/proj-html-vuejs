@@ -37,15 +37,12 @@
                     </div>
                     <div class="col-6">
                         <ul class="nav">
-                            <li>HOME</li>
-                            <li>ABOUT</li>
-                            <li>SERVICES</li>
-                            <li>TEAM</li>
-                            <li>BLOG</li>
-                            <li><font-awesome-icon icon="fa-regular fa-user" /></li>
+                            <li v-for="(item, index) in items" :key="index">{{ item }}</li>
+                            <li>
+                                <font-awesome-icon icon="fa-regular fa-user" /></li>
                             <li class="header_button">GET IN TOUCH</li>
                         </ul>
-                    </div>
+                      </div>
                 </div>
                 <div class="title_container">
                     <div class="row">
@@ -73,7 +70,13 @@
 </template>
   
 <script>
-
+    export default {
+        data() {
+            return {
+            items: ["HOME", "ABOUT", "SERVICES", "TEAM", "BLOG"]
+            };
+        }
+    };
 </script>
 
   
@@ -84,6 +87,10 @@
     color: rgba(145,171,193,255);
     font-size: 12px;
     padding: 16px 0;
+}
+
+.contact_section *{
+    cursor: pointer;
 }
 .contact_conatiner{
     width: 1140px;
@@ -142,11 +149,23 @@
     align-items: center;
 }
 
+.nav *{
+    cursor: pointer;
+}
+
+.nav *:hover{
+    color: rgb(14,125,127);
+}
+
 .header_button{
     padding: 8px 18px;
     background-color: rgba(5,130,131,255);
     border-radius: 3px;
-    color: white;
+    color: white !important;
+}
+
+.header_button:hover{
+    background-color: #636767;
 }
 
 .title_container{
