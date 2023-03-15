@@ -4,6 +4,9 @@
     <Services />
     <Team />
     <News />
+    <Newsletter />
+    <Message />
+    <Footer />
 </template>
   
 <script>
@@ -12,6 +15,9 @@
     import Services from './Services.vue'
     import Team from './Team.vue'
     import News from './News.vue'
+    import Newsletter from './Newsletter.vue'
+    import Message from './Message.vue'
+    import Footer from './Footer.vue'
 
     export default {
         components: {
@@ -20,6 +26,9 @@
             Services,
             Team,
             News,
+            Newsletter,
+            Message,
+            Footer
         }
     }
 </script>

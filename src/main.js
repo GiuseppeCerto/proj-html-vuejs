@@ -22,9 +22,12 @@ import { faPlane } from '@fortawesome/free-solid-svg-icons'
 import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faBoxOpen } from '@fortawesome/free-solid-svg-icons'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
+import { faChevronDown } from '@fortawesome/free-solid-svg-icons'
+import { faLocationDot } from '@fortawesome/free-solid-svg-icons'
+import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
 
 
 library.add(faClock,faPhone,faEnvelope,faFacebookF,faTwitter,faLinkedinIn,faUser,faPlay,faNetworkWired,faArrowRight,faBriefcase,faChartSimple,faPlane,
-    faGlobe,faBoxOpen,faQuoteRight)
+    faGlobe,faBoxOpen,faQuoteRight,faChevronDown,faLocationDot,faChevronRight)
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
