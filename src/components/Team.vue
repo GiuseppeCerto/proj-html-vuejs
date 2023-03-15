@@ -149,6 +149,7 @@
 
     .team_image img{
         border-radius: 3px;
+        width: 130px;
     }
 
     .team_name{
